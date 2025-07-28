@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let quantidadeDeNumerosDisponiveis = 5;
+let quantidadeDeNumerosDisponiveis = 10;
 let numeroEscolhido = 0;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
@@ -19,7 +19,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial () {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 5');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 }
 
 exibirMensagemInicial();
@@ -29,9 +29,9 @@ function verificarChute() {
     
     if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Você acertou!');
-        let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'; // Aqui ele deixa gramaticalmente correta a frase, se for maior que 1, usa 'tentativas' no plural, caso contrário usa 'tentativa' no singular.
-        let mensagemTentativas = `Parabéns, você é bom mesmo! você acertou em ${tentativas} ${palavraTentativa}`; // Aqui monta uma mensagem usando template string com crase
-        exibirTextoNaTela('p', mensagemTentativas); // mostra a mensagem com o número de tentativas
+        let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'; // Aqui ele deixa gramaticalmente correta a frase.
+        let mensagemTentativas = `Parabéns, você é bom mesmo! você acertou em ${tentativas} ${palavraTentativa}`;
+        exibirTextoNaTela('p', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled'); // Habilita o botão de novo jogo
     } else {
         if (chute > numeroSecreto) {

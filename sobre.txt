@@ -1,0 +1,12 @@
+O projeto inicial está relacionado aos cursos de lógica de programação do programa ONE BRASIL + ALURA
+
+Comandos importantes GIT:
+git clone - clona um repositório para o computador local
+git status - verifica o status atual
+git log - verifica o histórico de commits
+git pull - puxa as alterações mais recentes
+git push - envia as alterações para o repositório remoto
+git add . - adiciona todas as pastas
+git add - adiciona somente uma pasta específica
+git remote - permite criar, ver e excluir conexões com outros repositórios
+git init - inicia um novo repositório local
