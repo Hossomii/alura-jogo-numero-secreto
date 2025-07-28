@@ -8,15 +8,17 @@ O Jogo do Número Secreto consiste em adivinhar um número aleatório gerado pel
 
 ## Demonstração
 
-<img src="https://github.com/Hossomii/alura-jogo-numero-secreto/blob/main/img/demonstracao.png?raw=true" alt="Demonstração do Jogo" width="600"/>
+<img src="https://github.com/Hossomii/alura-jogo-numero-secreto/blob/main/img/demonstracrao.png" alt="Demonstração do Jogo" width="600"/>
 
 > *Se não visualizar a imagem acima, clone o repositório e abra o `index.html` no seu navegador.*
 
 ## 🛠 Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
+<div>
+  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=black&labelColor=orange">
+  <img src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white&labelColor=blue">
+  <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
 
 ## 🚀 Como rodar o projeto
 
